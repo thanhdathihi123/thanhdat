@@ -60,7 +60,9 @@ class Mysql extends Dbconfig {
         return $this->dataSet;
     }
 
-
+    function selectAll($tableName) {
+        
+    }
    
 }
 ?>
